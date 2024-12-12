@@ -1,0 +1,1 @@
+for i in[*map(int,open(0))][1:]:print([0,f"1{(i-2)*'2'}1"][1<i])
