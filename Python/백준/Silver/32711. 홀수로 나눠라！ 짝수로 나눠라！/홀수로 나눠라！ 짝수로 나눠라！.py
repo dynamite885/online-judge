@@ -1,0 +1,5 @@
+*a,=map(lambda x:int(x)%2,[*open(0)][1].split())
+l=len(a)
+s=sum(a)
+if l==1 and s==0 or a[0]==a[-1]==1 and s==2:print(0)
+else:print(1)
