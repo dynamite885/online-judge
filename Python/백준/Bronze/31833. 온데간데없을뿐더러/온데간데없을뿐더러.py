@@ -1,0 +1,1 @@
+print(min(map(int,map(str.replace,[*open(0)][1:],' '*9,['']*9))))
