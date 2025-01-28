@@ -1,3 +1,1 @@
-for _ in range(int(input())):
-    l,r=map(int,input().split())
-    print(r-l+(max(l,r)==1))
+for i in[*open(0)][1:]:l,r=map(int,i.split());print(r-l+(r<2))
