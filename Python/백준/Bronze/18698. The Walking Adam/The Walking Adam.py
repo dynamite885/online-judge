@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:print(len(i.split("D")[0].strip()))
