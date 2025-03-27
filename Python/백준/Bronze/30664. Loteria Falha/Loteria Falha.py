@@ -1,0 +1,1 @@
+while i:=int(input()):print(['TENTE NOVAMENTE','PREMIADO'][i%42<1])
