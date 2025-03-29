@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:t={chr(j+97)for j in range(26)}-{*i.lower()};print('missing '+''.join(sorted(t))if t else'pangram')
