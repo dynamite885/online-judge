@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:r,e,c=map(int,i.split());e-=c;print(["does not matter","advertise","do not advertise"][(r<e)-(r>e)])
