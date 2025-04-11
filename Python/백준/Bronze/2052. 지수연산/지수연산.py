@@ -1,0 +1,1 @@
+print(f"{2**-int(input()):.999f}".rstrip('0'))
