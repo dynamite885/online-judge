@@ -1,0 +1,1 @@
+for s in[*open(0)][:-1]:n=eval(s.replace(*' -'));t=n%2*(n>2);print(n//2-t,t)
