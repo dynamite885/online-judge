@@ -1,0 +1,5 @@
+a,b,c,d=map(int,open(0))
+if a==b==c==d:print('Fish At Constant Depth')
+elif a<b<c<d:print('Fish Rising')
+elif a>b>c>d:print('Fish Diving')
+else:print('No Fish')
