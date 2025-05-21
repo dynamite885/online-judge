@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:a,b,c=map(int,i.split());print(max(0,(c-b)*[1,3,5][a-1]))
