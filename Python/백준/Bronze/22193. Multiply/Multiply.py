@@ -1,0 +1,1 @@
+_,N,M=open(0);print(int(N)*int(M))
