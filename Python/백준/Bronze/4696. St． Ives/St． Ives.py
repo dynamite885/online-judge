@@ -1,0 +1,1 @@
+while i:=eval(input()):print(f'{1+i+i*i+i**3+i**4:.2f}')
