@@ -1,0 +1,1 @@
+print(sum(map(lambda x:int(int(x)*'1'),input()[::2])))
