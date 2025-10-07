@@ -1,0 +1,1 @@
+while s:=input():s=='EOI'==exit();print('Found'*('nemo'in s.lower())or'Missing')
