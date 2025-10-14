@@ -21,6 +21,6 @@ while s:
         p = q
         q += 1
     else:
-        skip[p + 1] += skip[p]
+        skip[q] += skip[p]
         p -= skip[p]
 print(1)
