@@ -3,7 +3,9 @@ n = int(input())
 s = set()
 for _ in range(n - 1):
     u, v = map(int, input().split())
-    s.add((min(u, v), max(u, v)))
+    if v < u:
+        u, v = v, u
+    s.add((u, v))
 order = [*map(int, input().split())]
 if order[0] != 1:
     print(0)
@@ -15,9 +17,11 @@ while s:
         print(0)
         exit()
     start, end = order[p], order[q]
-    node = (min(start, end), max(start, end))
+    if end < start:
+        start, end = end, start
+    node = (start, end)
     if node in s:
-        s -= {node}
+        s.remove(node)
         p = q
         q += 1
     else:
