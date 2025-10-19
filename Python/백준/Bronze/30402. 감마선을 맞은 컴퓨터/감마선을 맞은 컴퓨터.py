@@ -1,0 +1,1 @@
+print(['chunbae','nabi','yeongcheol']['wbg'.find(*{*open(0).read()}-{*'\n royp'})])
