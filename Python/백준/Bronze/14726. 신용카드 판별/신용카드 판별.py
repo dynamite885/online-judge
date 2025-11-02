@@ -1,0 +1,1 @@
+for s in[*open(0)][1:]:print('FT'[sum(map(int,''.join(s[i*2+1]+str(2*int(s[i*2]))for i in range(8))))%10<1])
