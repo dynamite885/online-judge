@@ -1,0 +1,1 @@
+print(sum('01'in i or'OI'in i for i in[*open(0)][1:]))
