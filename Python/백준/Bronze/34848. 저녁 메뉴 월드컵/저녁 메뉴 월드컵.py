@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:print(bin(2**32-int(i))[2:].lstrip('1').count('1'))
