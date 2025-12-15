@@ -1,0 +1,1 @@
+print("Time limit exceeded"*(10000<int(input()))or"Accepted")
