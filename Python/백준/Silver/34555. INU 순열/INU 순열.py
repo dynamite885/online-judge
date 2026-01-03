@@ -1,0 +1,1 @@
+for i in range(n:=int(input())):print(n//2+i//2*(-1)**i+~i%2)
