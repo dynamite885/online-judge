@@ -1,0 +1,1 @@
+print(n:=int(input())*2-2,n-1)
