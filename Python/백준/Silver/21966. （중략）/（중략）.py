@@ -1,0 +1,5 @@
+n=int(input())
+s=input()
+if n<26:exit(print(s))
+if "."not in s[11:-12]:exit(print(s[:11]+"..."+s[-11:]))
+print(s[:9]+"."*6+s[-10:])
