@@ -1,0 +1,1 @@
+print(''.join('ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'[(ord(c)-ord('가'))//588]for c in input()))
