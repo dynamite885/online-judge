@@ -1,0 +1,6 @@
+s1,s2=map(int,input().split())
+a=all(eval(input().replace(" ","=="))for _ in range(s1))
+b=all(eval(input().replace(" ","=="))for _ in range(s2))
+if a and b:exit(print("Accepted"))
+if not a:exit(print("Wrong Answer"))
+if a and not b:exit(print("Why Wrong!!!"))
