@@ -1,0 +1,1 @@
+for c in[*open(0)][1]:print(end=" "if c<"Z"else"qwertyuiopasdfghjklzxcvbnm"[ord(c)-97])
