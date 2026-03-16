@@ -1,0 +1,1 @@
+for i in open(0):"2026"in i==print(i[:-6])
