@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:n,s=map(int,i.split());print("YNeos"[s-10**7!=n::2])
