@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:i=int(i);print((i%3<1)*2**(i//3))
