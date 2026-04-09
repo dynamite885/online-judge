@@ -1,0 +1,5 @@
+r,g,b=map(lambda x:int(x)/255,input().split())
+k=1-max(r,g,b)
+if k==1:exit(print(0,0,0,1))
+c,m,y=map(lambda x:(1-x-k)/(1-k),[r,g,b])
+print(c,m,y,k)
