@@ -1,0 +1,1 @@
+for i in[*open(0)][1:]:i=int(i);print(*(str(j+1)+" "+str(i//2+1)for j in range(i)),sep="\n")
